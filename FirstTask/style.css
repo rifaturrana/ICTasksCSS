@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f3fcf7;
+  height: 100px;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+}
+a {
+  text-decoration: none;
+}
+.dot a {
+  color: green;
+}
+.dot p {
+  color: green;
+  position: relative;
+  top: -85px;
+  left: 15px;
+  font-size: 50px;
+}
+.banner {
+  background-color: #f3fcf7;
+  height: 563px;
+  display: flex;
+  position: relative;
+}
+/* .banners {
+  background-color: blue;
+  position: relative;
+} */
+
+.banners {
+  width: 50%;
+  position: relative;
+}
+.banners p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 142.4%;
+  /* or 23px */
+  position: absolute;
+  left: 10%;
+
+  color: rgba(29, 29, 31, 0.75);
+}
+.banners h2 {
+  position: relative;
+  left: 9.38%;
+  right: 53.61%;
+  top: 3.51%;
+  bottom: 93.21%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 75px;
+  line-height: 91px;
+
+  color: #1d1d1f;
+}
+.btn {
+  /* #06C167 */
+  position: absolute;
+  padding: 10px;
+  border-radius: 8px;
+  top: 80%;
+  left: 20%;
+  background: #06c167;
+}
+.img {
+  position: relative;
+  right: 0;
+  left: 10%;
+  width: 463px;
+  height: 634px;
+  background-image: url("./images/Place\ Your\ Image.png");
+}
+.ratings {
+  height: 20px;
+  border-radius: 20px;
+  padding: 8px;
+  position: absolute;
+  top: 45%;
+  left: -16%;
+  background-color: white;
+}
+.quality {
+  display: flex;
+  height: 10px;
+  width: 250px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 20px;
+  position: relative;
+  top: 30%;
+  text-align: center;
+  left: 76%;
+  background-color: white;
+}
+.quality img {
+  position: relative;
+  top: -20px;
+  left: -20px;
+  border-radius: 20px;
+}
+.quality span {
+  position: relative;
+  top: -10px;
+  left: -10px;
+  border-radius: 20px;
+}
+.path {
+  display: flex;
+}
+
+.single {
+  margin-left: 150px;
+}
+.single img {
+  position: relative;
+  top: 10px;
+  right: 10px;
+}
+.list {
+  margin-top: 100px;
+}
+.list,
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container img {
+  position: relative;
+  top: 30px;
+  right: 20px;
+}
