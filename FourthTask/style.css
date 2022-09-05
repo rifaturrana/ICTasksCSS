@@ -1,0 +1,142 @@
+.main-menu {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin: 0 auto;
+  width: 900px;
+  box-sizing: border-box;
+  background-color: rgb(206, 143, 26);
+  border-bottom: 1px solid #e5e5e5;
+  height: 50px;
+}
+.menu-item {
+  padding: 0 20px;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  line-height: 50px;
+  box-sizing: border-box;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.sub-menu {
+  padding: 0;
+  width: 130px;
+  left: -0px;
+  position: absolute;
+  background-color: orange;
+  top: 50px;
+
+  list-style-type: none;
+  display: none;
+}
+
+.menu-item:hover .sub-menu {
+  display: block;
+}
+.sub2-menu {
+  padding: 0;
+  width: 130px;
+  left: 130px;
+  position: absolute;
+  background-color: rgb(206, 143, 26);
+  top: 100px;
+
+  list-style-type: none;
+  display: none;
+}
+
+.sub-menu-item:hover .sub2-menu {
+  display: block;
+}
+
+.sub3-menu {
+  padding: 0;
+  width: 130px;
+  left: 130px;
+  position: absolute;
+  background-color: tomato;
+  top: 100px;
+
+  list-style-type: none;
+  display: none;
+}
+.sub2-menu-item:hover .sub3-menu {
+  display: block;
+  transition: all 1s ease-in-out;
+}
+.sub3-menu-item:hover,
+.sub-menu-item:hover,
+.sub2-menu-item:hover {
+  background-color: red;
+  transition: all 0.7s ease;
+}
+.sub-menu-item,
+.sub2-menu-item,
+.sub3-menu-item {
+  text-align: center;
+}
+.sub-menu,
+.sub2-menu,
+.sub3-menu {
+  background-color: orange;
+}
+
+.dropdown1 {
+  width: fit-content;
+  margin: 0 auto;
+  height: 470px;
+  background-color: #e5e5e5;
+}
+h2 {
+  text-align: center;
+}
+.main-menu1 {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  align-items: center;
+  margin: 0 auto;
+  width: 900px;
+  box-sizing: border-box;
+  background-color: rgb(206, 143, 26);
+  border-bottom: 1px solid #e5e5e5;
+  height: 50px;
+}
+.list-item,
+.list-item1 {
+  padding: 0 20px;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  line-height: 50px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-2 {
+  padding: 0;
+  width: 130px;
+  position: absolute;
+  top: 50px;
+  left: -10px;
+  height: 0;
+  list-style-type: none;
+
+  overflow: hidden;
+
+  background-color: #3862a0;
+  line-height: 40px;
+  box-sizing: border-box;
+  transition: height 0.3s ease-in-out;
+  transition-delay: 0.1s;
+}
+.list-item:hover .menu-2 {
+  height: 200px;
+}
