@@ -64,8 +64,8 @@ body {
 }
 .single-plan {
   /* background-color: aliceblue; */
-  padding: 10px;
-  width: 250px;
+  padding: 5px;
+  flex-basis: 300px;
   border-radius: 10px;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -98,7 +98,7 @@ body {
 }
 .feature-item {
   /* background-color: antiquewhite; */
-  width: 200px;
+  width: 250px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -171,4 +171,12 @@ body {
 }
 .type-name {
   margin-left: -40px;
+}
+.item {
+  width: 175px;
+  display: flex;
+  justify-content: flex-start;
+
+  /* background-color: blue; */
+  /* background-color: antiquewhite; */
 }
