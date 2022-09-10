@@ -1,0 +1,214 @@
+body {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(384.02px);
+}
+a {
+  text-decoration: none;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+ul:nth-of-type(1),
+ul:nth-of-type(3) {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-evenly;
+  flex: 1;
+}
+ul:nth-of-type(2) {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  flex: 1.5;
+}
+
+.glass {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.hero {
+  /* background-color: antiquewhite; */
+  width: 100%;
+}
+.first-part {
+  display: flex;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.left-part {
+  /* background-color: aqua; */
+  flex: 1.5;
+  box-sizing: border-box;
+  padding: 100px;
+  /* align-self: center; */
+}
+.right-part {
+  padding-top: 10px;
+  padding-left: 40px;
+  position: relative;
+  /* background-color: blue; */
+
+  flex: 2;
+}
+
+.hero-img {
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+  padding-left: 13px;
+  padding-top: 10px;
+  background-image: url("./images/rectangle.png");
+}
+.ellipse-1 {
+  position: absolute;
+  left: 300px;
+  width: 40%;
+}
+.ellipse-2 {
+  position: absolute;
+  left: 460px;
+  top: 280px;
+  width: 30%;
+}
+.ellipse-3 {
+  position: absolute;
+  top: 130px;
+  left: 540px;
+}
+.glass {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  position: absolute;
+  width: 900px;
+  height: 80px;
+  top: 700px;
+  z-index: 2;
+}
+.title {
+  background-color: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
+  /* border: 1px solid rgb(233, 181, 181); */
+  color: rgb(247, 206, 206);
+  font-size: 25px;
+  width: 300px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  left: 415px;
+  top: 535px;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-90deg);
+}
+.left-part > img {
+  margin-left: 90px;
+  position: relative;
+  top: 140px;
+}
+.left-part h1 {
+  margin-top: 140px;
+  margin-left: 80px;
+  font-size: 50px;
+}
+.glass > button {
+  background-color: red;
+  color: white;
+  height: 40px;
+  border: none;
+  text-align: center;
+  border-radius: 8px;
+}
+.second-part {
+  margin: 50px auto;
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  align-items: center;
+}
+.user {
+  /* background-color: rgb(222, 170, 101); */
+  position: relative;
+  top: 130px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  box-sizing: border-box;
+}
+.user > img:nth-of-type(2) {
+  position: relative;
+  left: -10px;
+}
+.user > img:nth-of-type(3) {
+  position: relative;
+  left: -20px;
+}
+.user > img:nth-of-type(4) {
+  position: relative;
+  left: -40px;
+}
+.user > img:nth-of-type(5) {
+  position: relative;
+  left: -60px;
+}
+.user > img:nth-of-type(6) {
+  position: relative;
+  left: -80px;
+}
+.user > img:nth-of-type(7) {
+  position: relative;
+  left: -100px;
+}
+.total {
+  background-color: rgb(243, 237, 237);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: -110px;
+}
+.people {
+  margin-left: -50px;
+}
+.second-section {
+  position: relative;
+  height: 700px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.second-section .left-part {
+  position: relative;
+}
+.second-section .right-part {
+  display: flex;
+  box-sizing: border-box;
+  padding-top: 10%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.second-section .left-part img {
+  position: absolute;
+  top: 0;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+  padding-left: 13px;
+  padding-top: 15px;
+  background-image: url("./images/rectangle2.png");
+  background-repeat: no-repeat;
+}
