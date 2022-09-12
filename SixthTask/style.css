@@ -219,9 +219,9 @@ ul:nth-of-type(2) {
   margin: 15px auto;
   background-image: url("./images/Ellipse\ 1.png"),
     url("./images/Ellipse\ 2.png "), url("./images/Ellipse\ 3.png"),
-    url("./images/image\ 50.png"), url("./images/rectangle.png");
+    url("./images/rounded_corners.png"), url("./images/rectangle.png");
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-  background-position: 300px 0px, 400px 250px, 550px 150px, 20px 10px, left 20px;
+  background-position: 280px -15px, 400px 250px, 550px 150px, 15px 8px, left 1px;
 
   background-size: 350px, 250px, 200px, auto, auto;
   /* background-color: antiquewhite; */
