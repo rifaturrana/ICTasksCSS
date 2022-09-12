@@ -212,3 +212,17 @@ ul:nth-of-type(2) {
   background-image: url("./images/rectangle2.png");
   background-repeat: no-repeat;
 }
+
+.background {
+  width: 700px;
+  height: 700px;
+  margin: 15px auto;
+  background-image: url("./images/Ellipse\ 1.png"),
+    url("./images/Ellipse\ 2.png "), url("./images/Ellipse\ 3.png"),
+    url("./images/image\ 50.png"), url("./images/rectangle.png");
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: 300px 0px, 400px 250px, 550px 150px, 20px 10px, left 20px;
+
+  background-size: 350px, 250px, 200px, auto, auto;
+  /* background-color: antiquewhite; */
+}
