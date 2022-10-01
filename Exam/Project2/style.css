@@ -1,0 +1,40 @@
+.containers {
+  width: 100%;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+svg {
+  display: block;
+}
+
+/* CSS */
+button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+h3 {
+  color: white;
+}
+p {
+  color: azure;
+}
+.row {
+  padding: 50px;
+}
+.logo {
+  position: relative;
+  left: 30px;
+}

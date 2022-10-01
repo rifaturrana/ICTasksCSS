@@ -1,0 +1,19 @@
+@font-face {
+  src: url("../Xm/font/SutonnyMJ\ Regular.woff") format("woff"),
+    url("../Xm/font/SutonnyMJ\ Regular.ttf") format("truetype");
+  font-family: "sutoni";
+}
+* {
+  font-family: "sutoni";
+}
+p,
+h1,
+caption {
+  font-family: "sutoni";
+}
+.box1 {
+  padding: 15px;
+}
+.custom {
+  background-color: gray;
+}
